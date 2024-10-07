@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Paloo Paji 2 Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------- -->
+    <!-- Playfair Display Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------- -->
+    <!-- EB Garamond Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------- -->
+    <!-- Lato Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------- -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./imgs/book-store.png" type="image/png" />
+    <script src="./scripts.js" defer></script>
+    <title>Home - Bookstore</title>
+  </head>
+  <body class="bg-[#f2f5f7]">
+    <div class="pt-[35px]">
+      <!-- Nav Bar -->
+      <div
+        class="flex flex-row justify-evenly border-b-[1px] border-gray-300 pb-[35px]"
+      >
+        <!-- Logo -->
+        <div>
+          <img
+            src="./imgs/site-logo.svg"
+            alt="Logo"
+            class="w-[150px] h-auto min-w-[150px]"
+          />
+        </div>
+        <!-- Direction -->
+        <div class="flex flex-row space-x-[30px] font-medium">
+          <div class="text-[#25272d]"><p>Home</p></div>
+          <div class="text-[#565a61]"><p>Book</p></div>
+          <div class="text-[#565a61]"><p>About</p></div>
+          <div class="text-[#565a61]"><p>Blog</p></div>
+          <div class="text-[#565a61]"><p>Contact</p></div>
+        </div>
+        <!-- Shopping Cart -->
+        <div class="flex flex-row space-x-[15px] items-center">
+          <p class="font-medium text-[#5f4ecb]">$0.00</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="#5f4ecb"
+            class="bi bi-basket2-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <!-- New release -->
+      <div class="mt-[60px] flex flex-row-reverse justify-between mx-[160px]">
+        <!-- Image -->
+        <div>
+          <img
+            src="./imgs/the-sons-of-the-empire.jpg"
+            alt="The Sons of the Empire"
+            class="w-[400px] h-auto rounded-xl"
+          />
+        </div>
+        <div class="flex flex-row justify-center items-center">
+          <div class="flex flex-col justify-center">
+            <div>
+              <p
+                class="text-[15px] font-baloo-paaji-2 text-[#5f4ecb] font-semibold"
+              >
+                NEW RELEASE
+              </p>
+            </div>
+
+            <!-- Title -->
+            <div class="w-[550px] h-[225px] mt-[40px] leading-[100px]">
+              <p
+                class="text-[70px] text-[#25272d] font-eb-garamond font-medium"
+              >
+                The Sons of the Empire
+              </p>
+            </div>
+            <div class="w-[465px] h-[80px] mt-[15px]">
+              <p class="text-[16px] text-[#62666c]">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam ducimus sint enim soluta id, dolores facere sed earum
+                non necessitatibus.
+              </p>
+            </div>
+
+            <!-- Buy Now / Read Sample -->
+            <div class="mt-[50px] flex flex-row space-x-[25px]">
+              <a
+                id="buyNow"
+                href="https://jaclinmarie.com/product/the-sons-of-the-empire/"
+                target="_blank"
+                class="flex justify-center items-center w-[110px] h-[45px] bg-[#5f4ecb] hover:bg-[#4d3bc6] hover:scale-110 rounded-[5px] transition-all duration-300 ease-in-out cursor-pointer"
+              >
+                <p class="text-[#f2f5f7] pb-[2px]">Buy Now</p>
+              </a>
+              <div
+                class="flex justify-center items-center w-[110px] h-[45px] border-[1px] border-[#5f4ecb] rounded-[5px] hover:text-[#f2f5f7] hover:bg-[#4d3bc6] text-[#5f4ecb] hover:scale-110 transition-all duration-300 ease-in-out hover:border-0 cursor-pointer"
+              >
+                <p class="pb-[2px]">Read Sample</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Author -->
+      <div
+        class="mx-[160px] mt-[200px] flex flex-row justify-center items-center space-x-[95px]"
+      >
+        <div>
+          <div>
+            <img
+              src="./imgs/john-roberts.jpg"
+              alt="John Roberts"
+              class="w-[600px] h-auto min-w-[600px] rounded-xl"
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <p class="font-baloo-paaji-2 text-[#5f4ecb] font-semibold">
+              BIOGRAPHY
+            </p>
+          </div>
+          <div>
+            <p
+              class="font-eb-garamond font-semibold text-[45px] text-[#25272d] mt-[50px]"
+            >
+              John Roberts
+            </p>
+          </div>
+          <div
+            class="space-y-[20px] text-[#62666c] mt-[30px] text-[17px] w-[470px] h-auto"
+          >
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+              debitis blanditiis est qui quae, commodi sit possimus laudantium
+              libero repellat eaque nihil deleniti placeat delectus fuga
+              voluptates cum accusantium architecto.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto omnis quaerat neque cupiditate ex aspernatur.
+            </p>
+          </div>
+          <div class="mt-[70px]">
+            <a
+              href="https://en.wikipedia.org/wiki/John_Roberts_(writer)"
+              target="_blank"
+              class="flex justify-center items-center w-[110px] h-[45px] border-[1px] border-[#5f4ecb] rounded-[5px] hover:text-[#f2f5f7] hover:bg-[#4d3bc6] text-[#5f4ecb] hover:scale-110 transition-all duration-300 ease-in-out hover:border-0 cursor-pointer"
+            >
+              <p class="pb-[2px]">Read More</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Adwards -->
+      <div
+        class="mx-[180px] mt-[100px] flex flex-row justify-around space-x-[100px]"
+      >
+        <div class="w-[270px] h-auto">
+          <div class="mb-[30px]">
+            <img
+              src="./imgs/ultra.svg"
+              alt="Ultra Adward"
+              class="w-auto h-[60px]"
+            />
+          </div>
+          <div>
+            <p class="font-semibold text-[16px] mb-[10px]">
+              Best Author Awards 2012
+            </p>
+            <p class="text-[#62666c] text-[14px] font-medium">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="w-[270px] h-auto">
+          <div class="mb-[30px]">
+            <img
+              src="./imgs/mega.svg"
+              alt="Mega Adward"
+              class="w-auto h-[60px]"
+            />
+          </div>
+          <div>
+            <p class="font-semibold text-[16px] mb-[10px]">
+              World's #1 Best-selling Book
+            </p>
+            <p class="text-[#62666c] text-[14px] font-medium">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="w-[270px] h-auto">
+          <div class="mb-[30px]">
+            <img
+              src="./imgs/hyper-best.svg"
+              alt="Hyper Best Adward"
+              class="w-auto h-[60px]"
+            />
+          </div>
+          <div>
+            <p class="font-semibold text-[16px] mb-[10px]">
+              NYT Best-selling Author 2014
+            </p>
+            <p class="text-[#62666c] text-[14px] font-medium">
+              Urna donec dolor bibendum lectus arcu purus eget nisl, ut nisl
+              vitae.
+            </p>
+          </div>
+        </div>
+        <div class="w-[270px] h-auto">
+          <div class="mb-[30px]">
+            <img
+              src="./imgs/ultimate-winer.svg"
+              alt="Ultimate Adward"
+              class="w-auto h-[60px]"
+            />
+          </div>
+          <div>
+            <p class="font-semibold text-[16px] mb-[10px]">
+              Best Author Awards 2018
+            </p>
+            <p class="text-[#62666c] text-[14px] font-medium">
+              Morbi odio sodales et facilisis mi nibh fringilla quis risus
+              ultricies facilisis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Best Selling Books -->
+      <div>
+        <div class="flex flex-col mt-[200px]">
+          <div class="flex flex-col justify-center items-center">
+            <div>
+              <p
+                class="font-eb-garamond font-semibold text-[48px] text-[#25272d]"
+              >
+                Best Selling Books
+              </p>
+            </div>
+            <div
+              class="w-[670px] h-[70px] flex justify-center items-center mt-[10px]"
+            >
+              <p class="text-[#62666c] text-center font-semibold">
+                Vulputate vulputate eget cursus nam ultricies mauris, malesuada
+                elementum lacus arcu, sit dolor ipsum, ac felis, egestas vel
+                tortor eget aenean.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mx-[150px] mt-[60px] flex justify-center">
+          <div class="flex flex-row space-x-[50px] w-full h-auto">
+            <div class="w-1/4">
+              <div class="mb-[15px]">
+                <img
+                  src="./imgs/the-born-of-aplex.jpg"
+                  alt="The born of Aplex"
+                  class="w-[290px] h-auto rounded-xl"
+                />
+              </div>
+              <div class="ml-[1px]">
+                <p class="text-[#969a9f] text-[14px]">Fantasy</p>
+                <p
+                  class="font-eb-garamond font-[600] text-[18px] text-[#25272d]"
+                >
+                  The Born of APLEX
+                </p>
+                <p class="text-[#565a61] font-[600]">$26.00</p>
+              </div>
+            </div>
+            <div class="w-1/4">
+              <div class="mb-[15px]">
+                <img
+                  src="./imgs/the-thorned-mirror.jpg"
+                  alt="The Thorned Mirror"
+                  class="w-[290px] h-auto rounded-xl"
+                />
+              </div>
+              <div class="ml-[1px]">
+                <p class="text-[#969a9f] text-[14px]">Fantasy</p>
+                <p
+                  class="font-eb-garamond font-[600] text-[18px] text-[#25272d]"
+                >
+                  The Thorned Mirror
+                </p>
+                <p class="text-[#565a61] font-[600]">$23.00</p>
+              </div>
+            </div>
+            <div class="w-1/4">
+              <div class="mb-[15px]">
+                <img
+                  src="./imgs/Ark Forging.jpg"
+                  alt="Ark Forging"
+                  class="w-[290px] h-auto rounded-xl"
+                />
+              </div>
+              <div class="ml-[1px]">
+                <p class="text-[#969a9f] text-[14px]">Fantasy</p>
+                <p
+                  class="font-eb-garamond font-[600] text-[18px] text-[#25272d]"
+                >
+                  Ark Forging
+                </p>
+                <div class="flex flex-row space-x-[5px]">
+                  <p class="text-[#a4a7ac] line-through">$25.00</p>
+                  <p class="text-[#565a61] font-[600]">$20.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/4">
+              <div class="mb-[15px]">
+                <img
+                  src="./imgs/the-sons-of-the-empire.jpg"
+                  alt="The Sons of the Empire"
+                  class="w-[290px] h-auto rounded-xl"
+                />
+              </div>
+              <div class="ml-[1px]">
+                <p class="text-[#969a9f] text-[14px]">Fantasy</p>
+                <p
+                  class="font-eb-garamond font-[600] text-[18px] text-[#25272d]"
+                >
+                  The Sons of the Empire
+                </p>
+                <div class="flex flex-row space-x-[5px]">
+                  <p class="text-[#a4a7ac] line-through">$26.00</p>
+                  <p class="text-[#565a61] font-[600]">$20.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Be the first to know -->
+      <div
+        class="w-screen h-[335px] flex flex-col justify-center items-center bg-white mt-[100px]"
+      >
+        <div class="mb-[20px]">
+          <p class="font-eb-garamond text-[50px] text-[#25272d] font-semibold">
+            Be the first to know
+          </p>
+        </div>
+        <div class="w-[500px] text-center">
+          <p class="text-[#63676d] text-[18px] font-[400]">
+            Lectus amet scelerisque fusce est venenatis, eget enim dolor amet
+            vitae pharetra
+          </p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div
+        class="h-[320px] w-auto bg-[#25272d] flex flex-col justify-center space-y-[90px]"
+      >
+        <div class="flex flex-row justify-evenly items-center">
+          <div>
+            <img src="./imgs/site-logo-white.svg" alt="Site Logo" />
+          </div>
+          <div class="flex flex-row gap-x-[50px] text-[#e8eaec] font-semibold">
+            <p>Home</p>
+            <p>Books</p>
+            <p>About</p>
+            <p>Blog</p>
+            <p>Contact</p>
+          </div>
+          <div class="flex flex-row gap-x-[30px] fill-white">
+            <!-- IG -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+              />
+            </svg>
+            <!-- FB -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+              />
+            </svg>
+            <!-- Youtube -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              class="bi bi-youtube"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+              />
+            </svg>
+            <!-- Twiter - X -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              class="bi bi-twitter-x"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <p class="text-white font-semibold text-center font-baloo-paaji-2">
+            Lập trình web và ứng dụng | Nhóm 2
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
